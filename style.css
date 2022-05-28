@@ -10,7 +10,7 @@
     color: #fff !important;
 }
 .imagens{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -41,7 +41,7 @@
 
 /* cards */
 .spaceCards {
-    margin-top: 600px !important;
+    margin-top: 80px !important;
 }
 
 .card {
@@ -125,7 +125,7 @@ footer a:hover {
 }
 @media(max-width: 1400px){
     .spaceCards{
-        margin-top: 400px !important;
+        margin-top: 40px !important;
     }
 }
 
@@ -162,7 +162,7 @@ footer a:hover {
         display: none;
     }
     .spaceCards{
-     margin-top: 300px !important;   
+     margin-top: 30px !important;   
     }
     .card{
         margin-left: auto;
@@ -193,7 +193,7 @@ footer a:hover {
         width: 16rem !important;
     }
     .spaceCards{
-        margin-top: 270px !important;
+        margin-top: 20px !important;
     }
 
     .projeto {
