@@ -211,9 +211,7 @@ footer a:hover {
 /* celular */
 @media(max-width: 576px) {
     .imagens{
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
+        position: relative;
     }
     .imgTop{
         width: 32% !important;
@@ -226,7 +224,7 @@ footer a:hover {
     }
 
     .spaceCards {
-        margin-top: 28vh !important;
+        margin-top: 1vh !important;
     }
 
     .icones {
