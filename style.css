@@ -1,14 +1,42 @@
-.bg-escuro{
-    background-color: #111 !important;
-    border: 1px solid #fff !important;
-    color: #fff !important
+*{
+    transition: 0.2s linear;
 }
-.navbar{
-    background-color: #000 !important;
-}
-.navbar a{
+/* modo claro / escuro */
+.texto-claro{
     color: #fff !important;
 }
+.modo-escuro{
+    background-color: #000 !important;
+}
+.border-claro{
+    border: 1px solid #fff !important;
+}
+.texto-escuro{
+    color: #000 !important;
+}
+.modo-claro{
+    background-color: #fff !important;
+}
+.border-escuro{
+    border: 1px solid #111 !important;
+}
+.displayNone{
+    display: none !important;
+}
+/* fim modos claro / escuro */
+
+/* navbar */
+.bg-escuro{
+    border: 1px solid #fff !important;
+    background-color: #111 !important;
+    color: #fff !important
+}
+.bg-claro{
+    border: 1px solid #111 !important;
+    background-color: #fff !important;
+    color: #111 !important
+}
+
 .imagens{
     position: relative;
     display: flex;
@@ -20,32 +48,12 @@
     padding: 0px !important;
 }
 
-.tituloFotos{
-    text-shadow: 0px 8px 7px #000;
-    color: #fff;
-    font-size: 100px;
-    position: absolute;
-    margin-top: -60vh;
-    margin-left: 56vh;
-}
-
 .logoTop{
     font-size: 30px;
-    color: #333 !important;
-    text-decoration: none !important
+    text-decoration: none !important;
 }
-.navbar-brand img {
-    width: 60px;
-    height: 60px;
-}
-
 /* cards */
-.spaceCards {
-    margin-top: 80px !important;
-}
-
 .card {
-    border: 1px solid #fff !important;
     font-size: 16px;
     width: 19rem !important;
     margin-bottom: 40px;
@@ -89,10 +97,6 @@ h4 {
     font-size: 35px !important;
 }
 
-.numerosInfo {
-    font-size: 55px !important;
-}
-
 .btnInfo {
     border-radius: 0px !important;
 }
@@ -108,140 +112,37 @@ footer {
     background-color: #000;
 }
 
-.footerP {
-    color: #888
-}
-.h2F {
-    font-size: 40px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff
-}
-
-footer a:hover {
-    color: #333
-}
-@media(max-width: 1400px){
-    .spaceCards{
-        margin-top: 40px !important;
-    }
-}
-
 /* responsividade */
-@media(max-width:1200px) {
-    .tituloFotos{
-        font-size: 80px;
-        margin-top: -45vh;
-        margin-left: 35vh;
-    }
-    .spaceCards {
-        margin-top: 220px;
-    }
-    .cartao {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-    .infoImg {
-        width: 100% !important;
-        padding: 0 !important;
-    }
-    .imgInfo2{
-        display: none
-    }
-    .info{
-        margin-top: 20px !important;
-        width: 100% !important;
-    }
-}
-
-@media(max-width:992px) {
-    .tituloFotos{
-        display: none;
-    }
-    .spaceCards{
-     margin-top: 30px !important;   
-    }
-    .card{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .infoImg {
-        width: 100% !important;
-        padding: 0 !important;
-    }
-    .imgInfo2{
-        display: none
-    }
-    .info{
-        margin-top: 15px !important;
-    }
-    h2 {
-        font-size: 20px !important;
-    }
-
-    .footerP {
-        font-size: 12px !important;
-    }
-    
-}
 
 @media(max-width: 767px) {
     .card {
         width: 16rem !important;
     }
-    .spaceCards{
-        margin-top: 20px !important;
-    }
-
     .projeto {
         width: 100%;
         height: 300px !important;
         padding-top: 90px;
     }
-
-    .info{
-        margin-top: 0 !important;
-    }
-
 }
 
 /* celular */
 @media(max-width: 576px) {
-    .imagens{
-        position: relative;
-    }
-    .imgTop{
-        width: 32% !important;
-        padding: 0px !important;
-    }
-    .card {
-        border: 0.5px solid #000 !important;
+    .card{
         margin-left: auto !important;
         margin-right: auto !important;
     }
-
-    .spaceCards {
-        margin-top: 1vh !important;
+    .infoImg{
+        padding: 0 !important;
     }
-
     .icones {
         margin-top: 20px;
-        width: 100%;
         height: 60px !important;
     }
 
-    .infoImg {
-        width: 100% !important;
-        padding: 0 !important;
+    .radius{
+        border-radius: 0 !important;
     }
-    .info{
-        margin-top: 0 !important;
-    }
-    
-    footer{
-        margin-top: 0 !important;
+    .footerP {
+        font-size: 13px !important;
     }
 }
