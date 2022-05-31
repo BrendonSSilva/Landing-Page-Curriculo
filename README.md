@@ -4,4 +4,4 @@ Uma landing page (responsiva) sobre mim, feita do meu jeito e com minhas informa
 Irei atualizando conforme o necessário. Estou com ideia de fazer um dark-mode nesta página para pôr mais das minhas habilidades em prática.
 #
 
-Estou estudando localStorage, para iniciar a página de acordo com o tema escolhido
+Projeto feito função Dark-Mode, feito com localStorage (armazenar a função escolhida(dark ou light) pelo usuário no navegador), para que quando ele entre na página, se torne padrão o modo escolhido pelo mesmo.
