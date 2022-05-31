@@ -26,6 +26,9 @@
 /* fim modos claro / escuro */
 
 /* navbar */
+.btn-escuro{
+    border: none;
+}
 .bg-escuro{
     border: 1px solid #fff !important;
     background-color: #111 !important;
@@ -134,11 +137,13 @@ footer {
     .infoImg{
         padding: 0 !important;
     }
+    .bg-escuro{
+        border: none !important;
+    }
     .icones {
         margin-top: 20px;
         height: 60px !important;
     }
-
     .radius{
         border-radius: 0 !important;
     }
